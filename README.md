@@ -1,12 +1,45 @@
-UPB Student
+###### # Repositorio con fines estudiantile
 
-Repositorio con fines estudiantiles Aprendiendo JAVA desde cero
+------------
 
-No se requiere ninguna configuracion adicional para poner a correr dichos ejercicios
+# Descripción
+###### Este repositorio fue hecho para contener el código fuente de la pagina web (NombreProyecto) para llevar un control de cambios y salvaguardar todo el código con el cuál se codifica la pagina web.
 
-V 0.0.1
+------------
 
-Smitherens
-asdasdasdasd
-hola
-que onda prros
+#### Links de Interes
+##### Chat grupal de MicrosoftTeams
+- https://teams.live.com/l/invite/FAAFTP7mSxd4OrxAgU
+
+##### Tablero de Trello
+- https://trello.com/b/P6sxDaVD/sprint-1-nombre-proyecto
+
+------------
+
+#### Dependencias
+###### Este proyecto cuenta con algunas dependencias que deben instalarse y configurarse antes de poder ejecutar el proyecto localmente.
+- Git
+
+------------
+
+#### Pasos para clonar el código localmente
+1. Crear una carpeta donde se van a guardar los fuentes del proyecto.
+2. Abrir la consola de comando y dirijirse a la ruta donde creo la carpeta.
+3. Ejecutar el comando **git init** (Para inicializar un control de versiones vacio).
+4. Ejecutar el comando **git clone https://github.com/sayerpro/Html-y-Css.git**
+5. Ejecutar el comando **git flow init** (Para inicializar las ramas y branchs que utiliza git).
+6. Bajar cambios con el comando. **git pull origin/master**
+7. Bajar cambios de develop con el comando. **git checkout origin/develop**
+
+------------
+
+
+###### En caso de tener dudas complicaciones, inconvenientes y demas contacte con los colaboradores del repositorio.
+
+------------
+
+> Ultima fecha de actualización
+17/09/2021 19:45
+Version 0.0.1
+Autores
+Sayer Plaza (TheSrSmith)
