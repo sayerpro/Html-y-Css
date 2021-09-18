@@ -33,13 +33,17 @@
 
 ------------
 
+#### Anotaciones importartes a tener en cuenta
+###### Porfavor Siempre asegurarse hacer Pull antes de subir cambios con Push. Esto para evitar conflicto de cambios en el repositorio.
+
+------------
 
 ###### En caso de tener dudas, complicaciones, inconvenientes y demás percances contacte con los colaboradores del repositorio.
 
 ------------
 
 > Ultima fecha de actualización
-17/09/2021 19:45
+17/09/2021 19:59
 Version 0.0.1
 Autores
 Sayer Plaza (TheSrSmith)
