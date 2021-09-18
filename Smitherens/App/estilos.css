@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+div {
+    border: 0px solid black;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+button {
+    cursor: pointer;
+}
+
+#Registerbutton {
+    font-size: 9px;
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+#Registerbutton:hover {
+    background-color: blue;
+}
+
+.contetConfigurationsButtonClass {
+    display: flex;
+    justify-content: center;
+}
+
+.contetConfigurationsButtonClass button {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block
+}
+
+.contetConfigurationsButtonClass button:hover {
+    animation: 1.2s bgrandom infinite;
+}
+
+@keyframes bgrandom {
+    0% {
+        background-color: darkblue;
+    }
+    10% {
+        background-color: darkcyan;
+    }
+    20% {
+        background-color: darkgoldenrod;
+    }
+    30% {
+        background-color: darkgray;
+    }
+    40% {
+        background-color: darkgreen;
+    }
+    50% {
+        background-color: darkmagenta;
+    }
+    60% {
+        background-color: darkred;
+    }
+    70% {
+        background-color: darkturquoise;
+    }
+    80% {
+        background-color: darkorange;
+    }
+    90% {
+        background-color: darkolivegreen;
+    }
+    100% {
+        background-color: darkslateblue;
+    }
+}
