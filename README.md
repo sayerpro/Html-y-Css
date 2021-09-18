@@ -1,4 +1,4 @@
-###### # Repositorio con fines estudiantile
+###### # Repositorio con fines estudiantiles
 
 ------------
 
@@ -7,7 +7,7 @@
 
 ------------
 
-#### Links de Interes
+#### Links de Interés
 ##### Chat grupal de MicrosoftTeams
 - https://teams.live.com/l/invite/FAAFTP7mSxd4OrxAgU
 
@@ -24,8 +24,8 @@
 
 #### Pasos para clonar el código localmente
 1. Crear una carpeta donde se van a guardar los fuentes del proyecto.
-2. Abrir la consola de comando y dirijirse a la ruta donde creo la carpeta.
-3. Ejecutar el comando **git init** (Para inicializar un control de versiones vacio).
+2. Abrir la consola de comando y dirigirse a la ruta donde creo la carpeta.
+3. Ejecutar el comando **git init** (Para inicializar un control de versiones vació).
 4. Ejecutar el comando **git clone https://github.com/sayerpro/Html-y-Css.git**
 5. Ejecutar el comando **git flow init** (Para inicializar las ramas y branchs que utiliza git).
 6. Bajar cambios con el comando. **git pull origin/master**
@@ -34,7 +34,7 @@
 ------------
 
 
-###### En caso de tener dudas complicaciones, inconvenientes y demas contacte con los colaboradores del repositorio.
+###### En caso de tener dudas, complicaciones, inconvenientes y demás percances contacte con los colaboradores del repositorio.
 
 ------------
 
