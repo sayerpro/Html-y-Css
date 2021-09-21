@@ -1,0 +1,86 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:cadetblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:cadetblue;
+}
+
+#nav_bar {
+background: #333;
+color: white;
+height: 50px;
+width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+left: 0; /* Posicionamos la cabecera al lado izquierdo */
+top: 0; /* Posicionamos la cabecera pegada arriba */
+position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+#formRegistro {
+  width: 100px;
+  height: 200px;
+  margin: auto auto;
+  position: relative;
+  top: 60px;
+}
+
+#nombres_usuario {
+  border-color: green;
+}
+
+#usuario {
+  border-color:green;
+}
+
+#contraseña {
+  border-color:green;
+}
+
+#telefono_usuario {
+  border-color:green;
+}
+
+#email_usuario {
+  border-color:  green;
+}
+
+#direccion_usuario{
+  border-color: green;
+}
+
+#email_usuario{
+  border-color: green;
+}
+
+#confirmar_email{
+  border-color: green;
+}
+
+label{
+  font-size: medium;
+}
+
+::placeholder{
+  color: #555;
+}
