@@ -1,44 +1,123 @@
+body {
+    text-align: center;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+div {
+    border: 0px solid black;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+button {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-  }
-  
-  li {
+}
+
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color:blue;
-  }
-
-
-
-  
-
-  #nav_bar {
-	background: #333;
-	color: white;
-	height: 50px;
-	
-	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-	left: 0; /* Posicionamos la cabecera al lado izquierdo */
-	top: 0; /* Posicionamos la cabecera pegada arriba */
-	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
 }
 
-#h{
+li a:hover {
+    background-color: blue;
+}
 
-    height: 1000px;
+#Registerbutton {
+    font-size: 9px;
+    width: 50px;
+    height: 30px;
+}
 
+#Registerbutton:hover {
+    background-color: blue;
+}
+
+#nav_bar {
+    background: #333;
+    color: white;
+    height: 50px;
+    width: 100%;
+    /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0;
+    /* Posicionamos la cabecera al lado izquierdo */
+    top: 0;
+    /* Posicionamos la cabecera pegada arriba */
+    position: fixed;
+    /* Hacemos que la cabecera tenga una posición fija */
+}
+
+#contentRegisterButton {
+    margin-top: 4%;
+}
+
+.contetConfigurationsButtonClass {
+    display: flex;
+    justify-content: center;
+}
+
+.contetConfigurationsButtonClass button {
+    margin-left: 0.1%;
+    margin-right: 0.1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block
+}
+
+.contetConfigurationsButtonClass button:hover {
+    animation: 5s bgrandom infinite;
+}
+
+@keyframes bgrandom {
+    0% {
+        background-color: darkblue;
+    }
+    10% {
+        background-color: darkcyan;
+    }
+    20% {
+        background-color: darkgoldenrod;
+    }
+    30% {
+        background-color: darkgray;
+    }
+    40% {
+        background-color: darkgreen;
+    }
+    50% {
+        background-color: darkmagenta;
+    }
+    60% {
+        background-color: darkred;
+    }
+    70% {
+        background-color: darkturquoise;
+    }
+    80% {
+        background-color: darkorange;
+    }
+    90% {
+        background-color: darkolivegreen;
+    }
+    100% {
+        background-color: darkslateblue;
+    }
 }
