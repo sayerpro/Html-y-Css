@@ -41,7 +41,7 @@ button {
 }
 
 .contetConfigurationsButtonClass button:hover {
-    animation: 1.2s bgrandom infinite;
+    animation: 5s bgrandom infinite;
 }
 
 @keyframes bgrandom {
