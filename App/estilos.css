@@ -6,97 +6,7 @@ body {
 }
 
 div {
-    border: 2px solid black;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px 14px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: blue;
-}
-
-#Registerbutton {
-    width: 50px;
-    height: 30px;
-    text-align: center;
-    border: none;
-    background-color: #333;
-    color: white;
-}
-
-#Registerbutton:hover {
-    background-color: blue;
-}
-
-#nav_bar {
-    display: flex;
-    justify-content: space-around;
-    float: left;
-    width: 98%;
-    left: 0;
-    top: 0;
-    position: fixed;
-    z-index: 1;
-}
-
-#formRegistro {
-    width: 100px;
-    height: 2000px;
-    margin: auto auto;
-    position: relative;
-    top: 40px;
-    z-index: 0;
-}
-
-#formRegistro input {
-    border: 2px solid green;
-}
-
-#formRegistro label {
-    font-size: medium;
-}
-
- ::placeholder {
-    color: #555;
-}
-
-#contentRegisterButton {
-    margin-top: 4%;
-}
-
-.contetConfigurationsButtonClass {
-    display: none;
-    justify-content: center;
-}
-
-.contetConfigurationsButtonClass button {
-    border: 1px solid black;
-    border-radius: 5px;
-    display: block;
-    height: 30px;
-  width: 100px;
-  background-color: #333;
-  color: white;
-  text-align: center;
-  border-radius: 10px;
+    border: 0px solid black;
 }
 
 .contetConfigurationsButtonClass button:hover {
@@ -139,21 +49,100 @@ li a:hover {
     }
 }
 
+#nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav_bar li {
+    float: left;
+}
+
+#Registerbutton {
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    border: none;
+    background-color: #333;
+    color: white;
+    right: 15%;
+    position: absolute;
+}
+
+#Registerbutton:hover {
+    background-color: blue;
+}
+
+#nav_bar {
+    color: white;
+    height: 30px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+#formRegistro {
+    width: 100px;
+    height: 200px;
+    margin: auto auto;
+    position: relative;
+    top: 10%;
+    z-index: 0;
+}
+
+#formRegistro input {
+    border: 2px solid green;
+}
+
+#formRegistro label {
+    font-size: medium;
+}
+
+::placeholder {
+    color: #555;
+}
+
+#contentRegisterbutton {
+    margin-top: 4%;
+}
+
+.contetConfigurationsButtonClass {
+    display: none;
+}
+
+.contetConfigurationsButtonClass button {
+    border: none;
+    display: block;
+    height: 30px;
+    width: 100px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
 .Configuracion:hover .contetConfigurationsButtonClass {
     display: block;
 }
 
-.Configuracion{
+.Configuracion {
+    right: 5%;
     position: absolute;
 }
 
 .Botones {
     display: block;
+    height: 30px;
+    width: 100px;
     text-align: center;
     border: none;
     background-color: #333;
     color: white;
-    height: 40px;
 }
 
 .Botones:hover {

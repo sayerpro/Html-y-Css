@@ -1,144 +1,140 @@
-body{
-  font-family: Arial, Helvetica, sans-serif;
-  background-color:whitesmoke;
-}
-
-header{
-  position: fixed;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
 }
 
 #nav_bar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 16px;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    overflow: hidden;
+    background-color: #333;
 }
 
 #nav_bar li {
-  float: left;
+    float: left;
 }
 
 #nav_bar {
-color: white;
-height: 30px;
-width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-top: 0;
-left: 0; /* Posicionamos la cabecera al lado izquierdo */
-position: fixed; /* Hacemos que la cabecera tenga una posición fija */
-z-index: 1;
+    color: white;
+    height: 30px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
 }
 
 #formRegistro {
-  width: 100px;
-  height: 200px;
-  margin: auto auto;
-  position: relative;
-  top: 10%;
-  z-index: 0;
+    width: 100px;
+    height: 200px;
+    margin: auto auto;
+    position: relative;
+    top: 10%;
+    z-index: 0;
 }
 
-#formRegistro input{
-  border: 2px solid green;
+#formRegistro input {
+    border: 2px solid green;
 }
 
-#formRegistro label{
-  font-size: medium;
+#formRegistro label {
+    font-size: medium;
 }
 
-::placeholder{
-  color: #555;
+::placeholder {
+    color: #555;
 }
 
-#RegisterButton{
-  height: 30px;
-  width: 50px;
-  text-align: center;
-  border: none;
-  background-color: #333;
-  color: white;
-  right: 15%;
-  position: absolute;
+#RegisterButton {
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    border: none;
+    background-color: #333;
+    color: white;
+    right: 15%;
+    position: absolute;
 }
 
-#RegisterButton:hover{
-  background-color: blue;
+#RegisterButton:hover {
+    background-color: blue;
 }
 
-.Botones{
-  display: block;
-  height: 30px;
-  width: 100px;
-  text-align: center;
-  border: none;
-  background-color: #333;
-  color: white;
+.Botones {
+    display: block;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    background-color: #333;
+    color: white;
 }
 
-.Botones:hover{
-  background-color: blue;
+.Botones:hover {
+    background-color: blue;
 }
 
 .contetConfigurationsButtonClass {
-  display: none;
+    display: none;
 }
 
 .contetConfigurationsButtonClass button {
-  border: none;
-  display: block;
-  height: 30px;
-  width: 100px;
-  background-color: #333;
-  color: white;
-  text-align: center;
-  border-radius: 10px;
+    border: none;
+    display: block;
+    height: 30px;
+    width: 100px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .contetConfigurationsButtonClass button:hover {
-  animation: 5s bgrandom infinite;
+    animation: 5s bgrandom infinite;
 }
 
 @keyframes bgrandom {
-  0% {
-      background-color: darkblue;
-  }
-  10% {
-      background-color: darkcyan;
-  }
-  20% {
-      background-color: darkgoldenrod;
-  }
-  30% {
-      background-color: darkgray;
-  }
-  40% {
-      background-color: darkgreen;
-  }
-  50% {
-      background-color: darkmagenta;
-  }
-  60% {
-      background-color: darkred;
-  }
-  70% {
-      background-color: darkturquoise;
-  }
-  80% {
-      background-color: darkorange;
-  }
-  90% {
-      background-color: darkolivegreen;
-  }
-  100% {
-      background-color: darkslateblue;
-  }
+    0% {
+        background-color: darkblue;
+    }
+    10% {
+        background-color: darkcyan;
+    }
+    20% {
+        background-color: darkgoldenrod;
+    }
+    30% {
+        background-color: darkgray;
+    }
+    40% {
+        background-color: darkgreen;
+    }
+    50% {
+        background-color: darkmagenta;
+    }
+    60% {
+        background-color: darkred;
+    }
+    70% {
+        background-color: darkturquoise;
+    }
+    80% {
+        background-color: darkorange;
+    }
+    90% {
+        background-color: darkolivegreen;
+    }
+    100% {
+        background-color: darkslateblue;
+    }
 }
 
-.Configuracion:hover .contetConfigurationsButtonClass{
-  display: block;
+.Configuracion:hover .contetConfigurationsButtonClass {
+    display: block;
 }
 
-.Configuracion{
-  right: 5%;
-  position: absolute;
+.Configuracion {
+    right: 5%;
+    position: absolute;
 }
