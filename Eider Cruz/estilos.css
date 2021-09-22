@@ -27,64 +27,29 @@ li a {
 }
 
 #nav_bar {
-background: #333;
 color: white;
 height: 30px;
 width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 top: 0;
 left: 0; /* Posicionamos la cabecera al lado izquierdo */
 position: fixed; /* Hacemos que la cabecera tenga una posición fija */
-}
-
-#nav_bar:hover{
-  background-color: blue;
+z-index: 1;
 }
 
 #formRegistro {
   width: 100px;
-  height: 2000px;
+  height: 200px;
   margin: auto auto;
   position: relative;
   top: 40px;
+  z-index: 0;
 }
 
-#nombres_usuario {
-  border-color: green;
+#formRegistro input{
+  border: 2px solid green;
 }
 
-#usuario {
-  border-color:green;
-}
-
-#contraseña {
-  border-color:green;
-}
-
-#telefono_usuario {
-  border-color:green;
-}
-
-#email_usuario {
-  border-color:  green;
-}
-
-#direccion_usuario{
-  border-color: green;
-}
-
-#email_usuario{
-  border-color: green;
-}
-
-#confirmar_email{
-  border-color: green;
-}
-
-input{
-  border-color: green;
-}
-
-label{
+#formRegistro label{
   font-size: medium;
 }
 

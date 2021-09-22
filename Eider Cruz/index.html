@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link href="estilos.css" rel="stylesheet" type="text/css" />
-    <script src='main.js'></script>
     <title>Inicio</title>
 </head>
 <body>
@@ -15,16 +14,17 @@
       <ul>
         <li><button class="Botones" onclick="location.href='index.html'">Home</button></li>
         <li><button id="RegisterButton" onclick="location.href='registro.html'">Login</button></li>
+        <li><div class="Configuracion">
+          <button class="Botones">Configuracion</button>
+          <div class="contetConfigurationsButtonClass" id="contetConfigurationsButton">
+            <button id="soundButton">Sonido</button>
+            <button id="modeButton">Modo</button>
+            <button id="languageButton">Idioma</button>
+            <button id="themeButton">Tema</button>
+          </div>
+        </div></li>
       </ul>
-      <div class="Configuracion">
-        <button class="Botones">Configuracion</button>
-        <div class="contetConfigurationsButtonClass" id="contetConfigurationsButton">
-          <button id="soundButton">Sonido</button>
-          <button id="modeButton">Modo</button>
-          <button id="languageButton">Idioma</button>
-          <button id="themeButton">Tema</button>
-        </div>
-      </div>
+      
         
     </div>
   </nav>
