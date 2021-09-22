@@ -85,14 +85,13 @@ z-index: 1;
 
 .contetConfigurationsButtonClass {
   display: none;
-  float: right;
 }
 
 .contetConfigurationsButtonClass button {
   border: none;
   display: block;
   height: 30px;
-  width: 80px;
+  width: 100px;
   background-color: #333;
   color: white;
   text-align: center;
@@ -144,5 +143,6 @@ z-index: 1;
 }
 
 .Configuracion{
-  float: right;
+  float: center;
+  position: absolute;
 }
