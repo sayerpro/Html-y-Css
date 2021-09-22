@@ -7,15 +7,27 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link href="estilos.css" rel="stylesheet" type="text/css" />
     <script src='main.js'></script>
-    <title>Document</title>
+    <title>Inicio</title>
 </head>
 <body>
+  <nav>
     <div id="nav_bar">
       <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="registro.html">Registro</a></li>
-        <li><a href="#Menu">Menu</a></li>
+        <li><button class="Botones" onclick="location.href='index.html'">Home</button></li>
+        <li><button id="RegisterButton" onclick="location.href='registro.html'">Login</button></li>
       </ul>
+      <div class="Configuracion">
+        <button class="Botones">Configuracion</button>
+        <div class="contetConfigurationsButtonClass" id="contetConfigurationsButton">
+          <button id="soundButton">Sonido</button>
+          <button id="modeButton">Modo</button>
+          <button id="languageButton">Idioma</button>
+          <button id="themeButton">Tema</button>
+        </div>
+      </div>
+        
     </div>
+  </nav>
+  <section></section>
 </body>
 </html>

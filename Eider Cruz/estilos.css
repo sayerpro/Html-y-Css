@@ -3,6 +3,10 @@ body{
   background-color:whitesmoke;
 }
 
+header{
+  position: fixed;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -19,30 +23,29 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-}
-
-li a:hover {
-  background-color:cadetblue;
 }
 
 #nav_bar {
 background: #333;
 color: white;
-height: 50px;
+height: 30px;
 width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+top: 0;
 left: 0; /* Posicionamos la cabecera al lado izquierdo */
-top: 0; /* Posicionamos la cabecera pegada arriba */
 position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+#nav_bar:hover{
+  background-color: blue;
 }
 
 #formRegistro {
   width: 100px;
-  height: 200px;
+  height: 2000px;
   margin: auto auto;
   position: relative;
-  top: 60px;
+  top: 40px;
 }
 
 #nombres_usuario {
@@ -77,10 +80,104 @@ position: fixed; /* Hacemos que la cabecera tenga una posición fija */
   border-color: green;
 }
 
+input{
+  border-color: green;
+}
+
 label{
   font-size: medium;
 }
 
 ::placeholder{
   color: #555;
+}
+
+#RegisterButton{
+  height: 30px;
+  width: 50px;
+  text-align: center;
+  border: none;
+  background-color: #333;
+  color: white;
+}
+
+#RegisterButton:hover{
+  background-color: blue;
+}
+
+.Botones{
+  display: block;
+  height: 30px;
+  text-align: center;
+  border: none;
+  background-color: #333;
+  color: white;
+}
+
+.Botones:hover{
+  background-color: blue;
+}
+
+.contetConfigurationsButtonClass {
+  display: none;
+  float: right;
+}
+
+.contetConfigurationsButtonClass button {
+  border: none;
+  display: block;
+  height: 30px;
+  width: 80px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contetConfigurationsButtonClass button:hover {
+  animation: 5s bgrandom infinite;
+}
+
+@keyframes bgrandom {
+  0% {
+      background-color: darkblue;
+  }
+  10% {
+      background-color: darkcyan;
+  }
+  20% {
+      background-color: darkgoldenrod;
+  }
+  30% {
+      background-color: darkgray;
+  }
+  40% {
+      background-color: darkgreen;
+  }
+  50% {
+      background-color: darkmagenta;
+  }
+  60% {
+      background-color: darkred;
+  }
+  70% {
+      background-color: darkturquoise;
+  }
+  80% {
+      background-color: darkorange;
+  }
+  90% {
+      background-color: darkolivegreen;
+  }
+  100% {
+      background-color: darkslateblue;
+  }
+}
+
+.Configuracion:hover .contetConfigurationsButtonClass{
+  display: block;
+}
+
+.Configuracion{
+  float: right;
 }
