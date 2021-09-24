@@ -14,6 +14,9 @@
 ##### Tablero de Trello
 - https://trello.com/b/P6sxDaVD/sprint-1-nombre-proyecto
 
+#### Chat grupal de whatsapp
+- https://chat.whatsapp.com/LK8LtDGeGG9FZnFyyG1kIE
+
 ------------
 
 #### Dependencias
