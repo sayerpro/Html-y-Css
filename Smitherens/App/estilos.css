@@ -2,42 +2,11 @@ body {
     text-align: center;
     font-family: 'Arial', 'Helvetica', sans-serif;
     font-weight: bold;
+    background-color: whitesmoke;
 }
 
 div {
     border: 0px solid black;
-    margin-bottom: 1%;
-    margin-top: 1%;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-button {
-    border: 1px solid black;
-    cursor: pointer;
-}
-
-#Registerbutton {
-    font-size: 9px;
-    width: 50px;
-    height: 30px;
-}
-
-#Registerbutton:hover {
-    background-color: blue;
-}
-
-.contetConfigurationsButtonClass {
-    display: flex;
-    justify-content: center;
-}
-
-.contetConfigurationsButtonClass button {
-    margin-left: 0.1%;
-    margin-right: 0.1%;
-    border: 1px solid black;
-    border-radius: 5px;
-    display: block
 }
 
 .contetConfigurationsButtonClass button:hover {
@@ -78,4 +47,104 @@ button {
     100% {
         background-color: darkslateblue;
     }
+}
+
+#nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav_bar li {
+    float: left;
+}
+
+#Registerbutton {
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    border: none;
+    background-color: #333;
+    color: white;
+    right: 15%;
+    position: absolute;
+}
+
+#Registerbutton:hover {
+    background-color: blue;
+}
+
+#nav_bar {
+    color: white;
+    height: 30px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+#formRegistro {
+    width: 100px;
+    height: 200px;
+    margin: auto auto;
+    position: relative;
+    top: 10%;
+    z-index: 0;
+}
+
+#formRegistro input {
+    border: 2px solid green;
+}
+
+#formRegistro label {
+    font-size: medium;
+}
+
+::placeholder {
+    color: #555;
+}
+
+#contentRegisterbutton {
+    margin-top: 4%;
+}
+
+.contetConfigurationsButtonClass {
+    display: none;
+}
+
+.contetConfigurationsButtonClass button {
+    border: none;
+    display: block;
+    height: 30px;
+    width: 100px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Configuracion:hover .contetConfigurationsButtonClass {
+    display: block;
+}
+
+.Configuracion {
+    right: 5%;
+    position: absolute;
+}
+
+.Botones {
+    display: block;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+
+.Botones:hover {
+    background-color: blue;
 }

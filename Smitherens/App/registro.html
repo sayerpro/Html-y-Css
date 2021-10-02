@@ -10,12 +10,61 @@
 </head>
 
 <body>
-    <div>
-        <h1>Esto es una prueba haber si se ve cuando redireccione a este html</h1>
-    </div>
-    <div>
-        <button id="" onclick="location.href='index.html'">Volver</button>
-    </div>
+    <nav>
+        <div id="nav_bar">
+            <ul>
+                <li><button class="Botones" onclick="location.href='index.html'">Inicio</button></li>
+                <li>
+                    <div class="Configuracion">
+                        <button class="Botones">Configuracion</button>
+                        <div class="contetConfigurationsButtonClass" id="contetConfigurationsButton">
+                            <button id="soundButton">Sonido</button>
+                            <button id="modeButton">Modo</button>
+                            <button id="languageButton">Idioma</button>
+                            <button id="themeButton">Tema</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div id="formRegistro">
+            <p>
+                <label for="nombres_usuario">Nombre</label>
+                <input type="text" id="nombres_usuario" name="Nombres" placeholder="Nombre completo">
+            </p>
+            <p>
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Usuario de preferencia">
+            </p>
+            <p>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña" name="apellido" placeholder="Contraseña">
+            </p>
+            <p>
+                <label for="telefono_usuario">Telefono</label>
+                <input type="text" id="telefono_usuario" name="telefono" placeholder="Telefono de contacto">
+            </p>
+            <p>
+                <label for="direccion_usuario">Direccion</label>
+                <input type="text" id="direccion_usuario" name="direccion" placeholder="Direccion de residencia">
+            </p>
+            <p>
+                <label for="email_usuario">Email</label>
+                <input type="text" id="email_usuario" name="correo" placeholder="Correo electronico">
+            </p>
+            <p>
+                <label for="confirmar_email">Confirmar email</label>
+                <input type="text" id="confirmar_email" name="confirmacion email" placeholder="Confirme email">
+            </p>
+            <p>
+                <button class="Botones">Enviar</button>
+            </p>
+        </div>
+    </section>
+
 </body>
 
 </html>

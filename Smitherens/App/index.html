@@ -2,23 +2,33 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nombre Proyecto</title>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
     <link href="estilos.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <div id="contentRegisterButton">
-        <button id="Registerbutton" onclick="location.href='registro.html'">Registro</button>
-    </div>
-    <div class="contetConfigurationsButtonClass" id="contetConfigurationsButton">
-        <button id="soundButton">Sonido</button>
-        <button id="modeButton">Modo nocturno/diurno</button>
-        <button id="languageButton">Idioma</button>
-        <button id="themeButton">Tema</button>
-    </div>
+    <nav>
+        <div id="nav_bar">
+            <ul>
+                <li><button class="Botones" onclick="location.href='index.html'">Inicio</button></li>
+                <li><button id="Registerbutton" onclick="location.href='registro.html'">Registrarse</button></li>
+                <li>
+                    <div class="Configuracion">
+                        <button class="Botones">Configuracion</button>
+                        <div class="contetConfigurationsButtonClass" id="contetConfigurationsButton">
+                            <button id="soundButton">Sonido</button>
+                            <button id="modeButton">Modo</button>
+                            <button id="languageButton">Idioma</button>
+                            <button id="themeButton">Tema</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </body>
 
 </html>
