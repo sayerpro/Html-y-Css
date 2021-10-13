@@ -17,8 +17,5 @@ function validar_direccion(direccion) {
     return validacion;
 }
 
-// console.log(validar_telefono("1234567"));
-// console.log(validar_direccion("Calle #"));
-
 module.exports.validar_telefono = validar_telefono;
 module.exports.validar_direccion = validar_direccion;

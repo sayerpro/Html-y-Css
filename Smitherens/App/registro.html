@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nombre Proyecto</title>
     <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="registro3.js"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
         <div id="formRegistro">
             <p>
                 <label for="nombres_usuario">Nombre</label>
-                <input type="text" id="nombres_usuario" name="Nombres" placeholder="Nombre completo">
+                <input type="text" id="nombres_usuario" name="nombre" placeholder="Nombre completo">
             </p>
             <p>
                 <label for="usuario">Usuario</label>
@@ -41,7 +42,7 @@
             </p>
             <p>
                 <label for="contraseña">Contraseña</label>
-                <input type="password" id="contraseña" name="apellido" placeholder="Contraseña">
+                <input type="password" id="contraseña" name="contrasena" placeholder="Contraseña">
             </p>
             <p>
                 <label for="telefono_usuario">Telefono</label>
@@ -57,10 +58,10 @@
             </p>
             <p>
                 <label for="confirmar_email">Confirmar email</label>
-                <input type="text" id="confirmar_email" name="confirmacion email" placeholder="Confirme email">
+                <input type="text" id="confirmar_email" name="confirmacionEmail" placeholder="Confirme email">
             </p>
             <p>
-                <button class="Botones">Enviar</button>
+                <button class="Botones" onclick="tomarDatosForm()">Registrar</button>
             </p>
         </div>
     </section>
