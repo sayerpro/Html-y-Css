@@ -1,37 +1,32 @@
-let arregloDominios = [];
-let ocurrencias = 0;
+let objeto = [{
+    nombre: "Sayer",
+    usuario: "TheSrSmith",
+    contrasena: "123",
+    telefono: "0123456789",
+    direccion: "Cra # 70 cakke 20",
+    correo: "sayerpro.op7@upb.edu.co",
+    confirmacionCorreo: "sayerpro.op7@upb.edu.co"
+}];
 
-function tomarDatosForm() {
-    const nuevoArreglo = {
-        nombre: document.getElementById("nombres_usuario").value,
-        usuario: document.getElementById("usuario").value,
-        contrasena: document.getElementById("contraseña").value,
-        telefono: document.getElementById("telefono_usuario").value,
-        direccion: document.getElementById("campoDireccion").value,
-        email: document.getElementById("email_usuario").value,
-        confirmacionEmail: document.getElementById("confirmar_email").value
-    };
-    ocurrencias = retornarCuenta(buscarDominio(nuevoArreglo));
-}
-
-function buscarDominio(registros) {
-    if (registros.email.includes("upb.edu.co")) {
-        arregloDominios.push(registros);
-        console.table(arregloDominios);
-    }
+function buscarDominio() {
+    let arregloDominios = [];
+    objeto.forEach(element => {
+        if (element.correo.includes("@upb.edu.co") || element.correo.includes("upb.edu.co")) {
+            arregloDominios.push(element);
+        }
+    });
     return arregloDominios;
 }
 
-function retornarCuenta(datosForm) {
+function retornarCuenta(args) {
     let contador = 0;
-    if (datosForm.length) {
-        for (let i = datosForm.length - 1; i >= 0; i--) {
-            contador = datosForm[i].nombre.includes("a") && datosForm[i].telefono.endsWith("4") || datosForm[i].telefono.endsWith("0") ? contador + 1 : contador;
+    if (args.length) {
+        for (let i = args.length - 1; i >= 0; i--) {
+            contador = args[i].nombre.includes("a") && args[i].telefono.endsWith("4") || args[i].telefono.endsWith("0") ? contador + 1 : contador;
         }
     }
     return contador;
 }
 
-module.exports.tomarDatosForm = tomarDatosForm;
 module.exports.buscarDominio = buscarDominio;
 module.exports.retornarCuenta = retornarCuenta;
