@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre Proyecto</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="registro3.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div id="nav_bar">
+            <ul>
+                <li><button class="Botones" onclick="location.href='index.html'">Inicio</button></li>
+                <li>
+                    <div class="Configuracion">
+                        <button class="Botones">Configuracion</button>
+                        <div class="contetConfigurationsButtonClass" id="contetConfigurationsButton">
+                            <button id="soundButton">Sonido</button>
+                            <button id="modeButton">Modo</button>
+                            <button id="languageButton">Idioma</button>
+                            <button id="themeButton">Tema</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div id="formRegistro">
+            <p>
+                <label for="nombres_usuario">Nombre</label>
+                <input type="text" id="nombres_usuario" name="nombre" placeholder="Nombre completo">
+            </p>
+            <p>
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Usuario de preferencia">
+            </p>
+            <p>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña" name="contrasena" placeholder="Contraseña">
+            </p>
+            <p>
+                <label for="telefono_usuario">Telefono</label>
+                <input type="text" id="telefono_usuario" name="telefono" placeholder="Telefono de contacto">
+            </p>
+            <p>
+                <label for="campoDireccion">Direccion</label>
+                <input type="text" id="campoDireccion" name="campoDireccion" placeholder="Direccion de residencia">
+            </p>
+            <p>
+                <label for="email_usuario">Email</label>
+                <input type="text" id="email_usuario" name="correo" placeholder="Correo electronico">
+            </p>
+            <p>
+                <label for="confirmar_email">Confirmar email</label>
+                <input type="text" id="confirmar_email" name="confirmacionEmail" placeholder="Confirme email">
+            </p>
+            <p>
+                <button class="Botones" onclick="buscarDominio()">Registrar</button>
+            </p>
+        </div>
+    </section>
+
+</body>
+
+</html>
