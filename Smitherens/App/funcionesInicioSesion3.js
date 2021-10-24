@@ -1,32 +1,26 @@
 function buscarDominio(arreglo) {
-    var correosupb = []
-    for (var i in arreglo) {
+    let emailsFiltrados = []
+    for (let i in arreglo) {
         if (arreglo[i].correo.includes("upb.edu.co")) {
-            correosupb.push(arreglo[i])
+            emailsFiltrados.push(arreglo[i])
         }
     }
-    correosupb.push('upb.edu.co')
-    return correosupb
+    emailsFiltrados.push("upb.edu.co");
+    return emailsFiltrados
 }
 
 
 function verificarInicioSesion3(correo, contrasena, arreglo) {
-    for (var i in arreglo) {
-        if ((arreglo[i].correo == correo) || (arreglo[i].contrasena == contrasena)) {
-            var resultado = prompt("¿Cusanto es 321 - 16?");
-            verificarCaptcha3(resultado);
+    for (let i in arreglo) {
+        if (arreglo[i].correo === correo || arreglo[i].contrasena === contrasena) {
+            return verificarCaptcha3(prompt("¿Cuál es el factorial de 6?"));
         }
-        return true
     }
 }
 
 function verificarCaptcha3(respuesta) {
-    if (respuesta == 305) {
-        return true
-    }
-    return false
+    return 720 === parseInt(respuesta);
 }
-
 
 module.exports.verificarInicioSesion3 = verificarInicioSesion3
 module.exports.verificarCaptcha3 = verificarCaptcha3
